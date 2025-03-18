@@ -10,6 +10,13 @@ public class Persona {
     private String nombre;
     private float sueldo;
 
+    // Constructor
+    public Persona(int id, String nombre, float sueldo) {
+        this.id = id;
+        this.nombre = nombre;
+        this.sueldo = sueldo;
+    }
+
     /**
      * @return the id
      */
@@ -50,7 +57,5 @@ public class Persona {
      */
     public void setSueldo(float sueldo) {
         this.sueldo = sueldo;
-    }
-
-    
+    }   
 }
