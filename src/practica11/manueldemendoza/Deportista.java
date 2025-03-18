@@ -27,4 +27,16 @@ public class Deportista extends Persona {
     public void setEstatura(float estatura) {
         this.estatura = estatura;
     }
+    
+        // toString method
+    @Override
+    public String toString() {
+        return "Deportista{" +
+                "id=" + getId() +
+                ", nombre='" + getNombre() + '\'' +
+                ", sueldo=" + getSueldo() +
+                ", peso=" + peso +
+                ", estatura=" + estatura +
+                '}';
+    }
 }

@@ -17,7 +17,7 @@ public class Practica11Manueldemendoza {
         // TODO code application logic here
         System.out.println("Hola mundo de nuevo");
         System.out.println("Hola mundo de nuevo");
-        System.out.println("Hola mundo de nuevo");
+        System.out.println(new Deportista(1,"Tom", 5000f, 71f, 1.79f));
     }
     
 }
