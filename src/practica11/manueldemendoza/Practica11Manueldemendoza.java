@@ -16,6 +16,7 @@ public class Practica11Manueldemendoza {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hola mundo de nuevo");
+        System.out.println("Hola mundo de nuevo");
     }
     
 }
